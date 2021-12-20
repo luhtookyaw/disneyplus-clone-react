@@ -1,13 +1,14 @@
 import styled from "styled-components";
+import ImageSlider from "./ImageSlider";
+import Viewers from "./Viewers";
+import MoviesRow from "./MoviesRow";
 
 const Home = (props) => {
     return (
         <Container>
-            <h1>home</h1>
-            <h1>home</h1>
-            <h1>home</h1>
-            <h1>home</h1>
-            <h1>home</h1>
+            <ImageSlider/>
+            <Viewers/>
+            <MoviesRow/>
         </Container>
     );
 }
